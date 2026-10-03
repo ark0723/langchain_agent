@@ -1,0 +1,39 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# reference materials and local IDE
+docs/
+.cursor/
+
+# generated vector store
+chroma_db/
+
+# uv virtualenv
+.venv/
+
+# installed agent skills (restore from skills-lock.json)
+.agents/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# editor / OS
+.DS_Store
+.idea/
+.vscode/
+
+# local caches
+*.log
+.cache/
